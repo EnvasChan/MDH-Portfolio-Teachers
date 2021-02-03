@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/num1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="강보민"
+        android:textSize="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:background="@drawable/edge"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/num2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="구현우"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edge"
+        app:layout_constraintTop_toBottomOf="@id/num1"
+        app:layout_constraintLeft_toLeftOf="@id/num1"/>
+    <TextView
+        android:id="@+id/num3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="김민준"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edge"
+        app:layout_constraintTop_toBottomOf="@id/num2"
+        app:layout_constraintLeft_toLeftOf="@id/num1"/>
+
+    <TextView
+        android:id="@+id/num4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edge"
+        android:text="김준오"
+        android:textSize="25dp"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="@id/num1"
+        app:layout_constraintTop_toBottomOf="@id/num3" />
+
+    <TextView
+        android:id="@+id/num5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="김태현"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edge"
+        app:layout_constraintTop_toBottomOf="@id/num4"
+        app:layout_constraintLeft_toLeftOf="@id/num1"/>
+
+    <TextView
+    android:id="@+id/num6"
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:text="김하늘"
+        android:gravity="center"
+    android:textSize="25dp"
+    android:background="@drawable/edge"
+    app:layout_constraintTop_toBottomOf="@id/num5"
+    app:layout_constraintLeft_toLeftOf="@id/num1"/>
+
+
+    <TextView
+        android:id="@+id/num7"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="김하종"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edge"
+        app:layout_constraintTop_toBottomOf="@id/num6"
+        app:layout_constraintLeft_toLeftOf="@id/num1"/>
+
+
+    <TextView
+        android:id="@+id/num8"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="박태민"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edge"
+        app:layout_constraintTop_toBottomOf="@id/num7"
+        app:layout_constraintLeft_toLeftOf="@id/num1"/>
+
+
+    <TextView
+        android:id="@+id/num9"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="심규선"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edge"
+        app:layout_constraintTop_toBottomOf="@id/num8"
+        app:layout_constraintLeft_toLeftOf="@id/num1"/>
+
+    <TextView
+        android:id="@+id/num10"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="양민혁"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:background="@drawable/edge"
+        app:layout_constraintLeft_toRightOf="@id/num1"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/num11"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="우승연"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edge"
+        app:layout_constraintTop_toBottomOf="@id/num10"
+        app:layout_constraintLeft_toLeftOf="@id/num10"/>
+
+    <TextView
+        android:id="@+id/num12"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="유재원"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edge"
+        app:layout_constraintTop_toBottomOf="@id/num11"
+        app:layout_constraintLeft_toLeftOf="@id/num10"/>
+
+    <TextView
+        android:id="@+id/num13"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="윤수혁"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edge"
+        app:layout_constraintTop_toBottomOf="@id/num12"
+        app:layout_constraintLeft_toLeftOf="@id/num10"/>
+
+    <TextView
+        android:id="@+id/num14"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="윤영관"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edge"
+        app:layout_constraintTop_toBottomOf="@id/num13"
+        app:layout_constraintLeft_toLeftOf="@id/num10"/>
+
+    <TextView
+        android:id="@+id/num15"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="이대연"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edge"
+        app:layout_constraintTop_toBottomOf="@id/num14"
+        app:layout_constraintLeft_toLeftOf="@id/num10"/>
+
+    <TextView
+    android:id="@+id/num25"
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:text="배가람"
+    android:textSize="25dp"
+    android:gravity="center"
+    android:background="@drawable/edge"
+    app:layout_constraintTop_toBottomOf="@id/num15"
+    app:layout_constraintLeft_toLeftOf="@id/num10"/>
+
+    <TextView
+        android:id="@+id/num26"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="이도현"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edge"
+        app:layout_constraintTop_toBottomOf="@id/num25"
+        app:layout_constraintLeft_toLeftOf="@id/num10"/>
+
+    <TextView
+        android:id="@+id/num27"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="이현호"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edge"
+        app:layout_constraintTop_toBottomOf="@id/num26"
+        app:layout_constraintLeft_toLeftOf="@id/num10"/>
+
+    <TextView
+        android:id="@+id/num16"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="장근우"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:background="@drawable/edge"
+        app:layout_constraintLeft_toRightOf="@id/num10"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/num17"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="정영석"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edge"
+        app:layout_constraintTop_toBottomOf="@id/num16"
+        app:layout_constraintLeft_toLeftOf="@id/num16"/>
+    <TextView
+        android:id="@+id/num18"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="정지원"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edge"
+        app:layout_constraintTop_toBottomOf="@id/num17"
+        app:layout_constraintLeft_toLeftOf="@id/num16"/>
+
+    <TextView
+        android:id="@+id/num19"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="정찬영"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edge"
+        app:layout_constraintTop_toBottomOf="@id/num18"
+        app:layout_constraintLeft_toLeftOf="@id/num16"/>
+    <TextView
+        android:id="@+id/num20"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="조혁승"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edge"
+        app:layout_constraintTop_toBottomOf="@id/num19"
+        app:layout_constraintLeft_toLeftOf="@id/num16"/>
+    <TextView
+        android:id="@+id/num21"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="조효상"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edge"
+        app:layout_constraintTop_toBottomOf="@id/num20"
+        app:layout_constraintLeft_toLeftOf="@id/num16"/>
+    <TextView
+        android:id="@+id/num22"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="최현웅"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edge"
+        app:layout_constraintTop_toBottomOf="@id/num21"
+        app:layout_constraintLeft_toLeftOf="@id/num16"/>
+    <TextView
+        android:id="@+id/num23"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="한창민"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edge"
+        app:layout_constraintTop_toBottomOf="@id/num22"
+        app:layout_constraintLeft_toLeftOf="@id/num16"/>
+
+    <TextView
+    android:id="@+id/num24"
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:text="홍승범"
+    android:textSize="25dp"
+    android:gravity="center"
+    android:background="@drawable/edge"
+    app:layout_constraintTop_toBottomOf="@id/num23"
+    app:layout_constraintLeft_toLeftOf="@id/num16"/>
+
+    <Button
+        android:id="@+id/road"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="불러오기"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:background="@drawable/gradation"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
